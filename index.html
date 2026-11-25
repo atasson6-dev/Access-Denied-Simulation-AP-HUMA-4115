@@ -20,7 +20,7 @@ section[id]{scroll-margin-top:100px}
 <div class="brand">ACCESS <span>DENIED</span>
 </div>
 <nav>
-<a href="#patients">Choose a patient</a>
+<a href="#patients">Choose a Patient</a>
 <a href="#research">Research</a>
 <a href="#experiences">Healthcare Horror Stories</a>
 <a href="#accountability">Accountability</a>
@@ -30,19 +30,19 @@ section[id]{scroll-margin-top:100px}
 <main>
 <section id="home" class="hero">
 <div class="eyebrow">York University · AP/HUMA 4115</div>
-<h1>Booking care online.<br>
-<span>Can everyone access it?</span>
+<h1>Booking Care Online.<br>
+<span>Can Everyone Access It?</span>
 </h1>
 <p class="lead">Online booking gives patients another way to arrange care. Follow Jordan and Margaret to see what happens when a clinic makes the portal its main route to an appointment.</p>
 
 <p class="lead">Fictional patient stories · No personal information collected.</p>
 <div class="actions">
-<a class="button" href="#patients">Start the experience →</a>
+<a class="button" href="#patients">Start the Experience →</a>
 </div>
 </section>
 <section id="patients">
 <div class="eyebrow">Step 1</div>
-<h2>Whose appointment will you try to book?</h2>
+<h2>Whose Appointment Will You Try to Book?</h2>
 <div class="cards">
 <div class="card">
 <div class="patient-layout">
@@ -67,13 +67,13 @@ section[id]{scroll-margin-top:100px}
 </div>
 </section>
 <section id="booking" class="hidden">
-<div class="eyebrow">Step 2 · Appointment booking</div>
-<h2 id="bookingTitle">Your booking journey</h2>
-<button class="outline" onclick="resetBooking()">← Change patient</button>
+<div class="eyebrow">Step 2 · Appointment Booking</div>
+<h2 id="bookingTitle">Your Booking Journey</h2>
+<button class="outline" onclick="resetBooking()">← Change Patient</button>
 <div class="portal">
 <div class="portalhead">
-<span>CARECONNECT · Online appointments</span>
-<span class="muted">Demonstration booking portal</span>
+<span>CARECONNECT · Online Appointments</span>
+<span class="muted">Demonstration Booking Portal</span>
 </div>
 <div id="portalContent">
 </div>
@@ -81,8 +81,13 @@ section[id]{scroll-margin-top:100px}
 </section>
 
 <section id="research">
-  <h2>What the research found</h2>
+  <h2>What the Research Found</h2>
   <div class="research-grid">
+    <article class="card">
+      <h3>Shanklin et al. (2022) · Who Waits Longer?</h3>
+      <p>Philosophy professor Robert Shanklin and colleagues’ 2022 article, “Ethical Redress of Racial Inequities in AI: Lessons from Decoupling Machine Learning from Optimization in Medical Appointment Scheduling,” argues that accurate predictions can still produce unfair appointment schedules. The authors explain how algorithms which are trained on previous data from the past can affect black patients by making them wait longer to book appointments, reproducing existing healthcare inequalities. They distinguish between machine learning, which predicts attendance, and optimization, which uses those predictions to schedule appointments. Drawing on Samorani and colleagues’ scheduling experiments, Section 5 presents a comparison of four approaches, which are removing machine learning, excluding socioeconomic information, and changing scheduling objectives either with or without explicitly considering race. The race-aware algorithm did not create a significant racial disparity, and schedule quality was only 1% worse than the existing method. Removing just the socioeconomic data did not remove the disparities (though it was reduced, it remained at 10%) as other data including attendance history remained correlated with race. The authors conclude that changing how schedules are optimized can reduce unfairness while preserving much of the system’s efficiency.</p>
+      <a href="https://link.springer.com/article/10.1007/s13347-022-00590-8">Read Shanklin et al. on Springer Nature</a>
+    </article>
     <article class="card">
       <h3>Atherton et al. (2024) · Online Booking in England</h3>
       <p>Primary care research professor Helen Atherton and colleagues’ 2024 article, “Investigating Patient Use and Experience of Online Appointment Booking in Primary Care: Mixed Methods Study,” examines who uses online appointment booking and how patients experience it. The researchers analyzed 1,327,693 survey responses from 2018–2019 and interviewed 43 patients across 11 general practices. Their results show that approximately 45% of respondents answering the awareness question knew online booking was available, while roughly 16% answering the usage question had used it. Awareness and use declined sharply with age (&gt;75 years) and patients in poorer areas were overrepresented in practices with lower levels of awareness and use. People with long-term conditions were more likely to use the internet to make appointments, particularly for routine and non-urgent appointments. Interviewees mentioned convenience as a benefit, while registration procedures and limited appointment availability impacted their experiences. Older interviewees often preferred to book by telephone. The authors conclude that patient circumstances and practice arrangements influence engagement, and recommend supporting patients who want to book online, while maintaining telephone access for those who cannot or prefer not to.</p>
@@ -93,52 +98,63 @@ section[id]{scroll-margin-top:100px}
       <p>Primary care and public health researcher Abrar Alturkistani and colleagues’ 2023 article, “Cross-sectional analyses of online appointment booking and repeat prescription ordering user characteristics in general practices of England in the years 2018–2020,” examines how patient characteristics are associated with online service use. Using 1,807,049 survey responses, the researchers conducted statistical analyses accounting for differences between general practices. Approximately 15% of the respondents had booked appointments online, and 19% had ordered repeat prescriptions online during the previous year. Respondents who were 85 or older were less likely to use either of the services than younger people. Black respondents were less likely than White respondents to use either service. Respondents from the least deprived areas were more likely than respondents from the most deprived areas to use both services. Chronic conditions, the taking of five or more regular medications, and deafness or hearing loss were associated with higher odds of use. The authors recognize that self-reported usage and exclusion of incomplete responses may bias the results. They conclude that alternatives should be offered for patients unable or unwilling to use online services and that further research is needed to distinguish barriers from personal preferences.</p>
       <a href="https://www.proquest.com/docview/2876007089">Read Alturkistani et al. on ProQuest</a> · <a href="https://doi.org/10.1136/bmjopen-2022-068627">Open-access journal version</a>
     </article>
-    <article class="card">
-      <h3>Shanklin et al. (2022) · Who Waits Longer?</h3>
-      <p>Philosophy professor Robert Shanklin and colleagues’ 2022 article, “Ethical Redress of Racial Inequities in AI: Lessons from Decoupling Machine Learning from Optimization in Medical Appointment Scheduling,” argues that accurate predictions can still produce unfair appointment schedules. The authors explain how algorithms which are trained on previous data from the past can affect black patients by making them wait longer to book appointments, reproducing existing healthcare inequalities. They distinguish between machine learning, which predicts attendance, and optimization, which uses those predictions to schedule appointments. Drawing on Samorani and colleagues’ scheduling experiments, Section 5 presents a comparison of four approaches, which are removing machine learning, excluding socioeconomic information, and changing scheduling objectives either with or without explicitly considering race. The race-aware algorithm did not create a significant racial disparity, and schedule quality was only 1% worse than the existing method. Removing just the socioeconomic data did not remove the disparities (though it was reduced, it remained at 10%) as other data including attendance history remained correlated with race. The authors conclude that changing how schedules are optimized can reduce unfairness while preserving much of the system’s efficiency.</p>
-      <a href="https://link.springer.com/article/10.1007/s13347-022-00590-8">Read Shanklin et al. on Springer Nature</a>
-    </article>
   </div>
+  <article class="card" style="margin-top: 1rem;">
+    <h3>Relevance to Canadian Healthcare</h3>
+    <p>Although these studies examine healthcare systems in the United States and England, their findings highlight barriers that are also relevant to Canadian healthcare. Our simulation applies these international findings to explore how digital appointment booking may reinforce existing inequalities and create additional barriers to accessing healthcare in Canada.</p>
+  </article>
 </section>
 <section id="experiences">
   <h2>Healthcare Horror Stories</h2>
   <p>These anonymized accounts come from patient interviews about primary care booking in England.</p>
   <div class="research-grid">
     <article class="card">
-      <h3>A completed form still meant another trip</h3>
+      <h3>A Completed Form Still Meant Another Trip</h3>
       <p>One patient took the registration form home and filled it in. He rarely passed the clinic, so he never returned it. His online booking registration remained incomplete (Atherton et al.).</p>
       <a href="https://www.jmir.org/2024/1/e51931">Read the interview in the study’s Results section</a>
     </article>
     <article class="card">
-      <h3>The portal offered few appointments</h3>
+      <h3>The Portal Offered Few Appointments</h3>
       <p>A patient tried booking online and found few available slots. Across the interviews, limited near-term availability made the portal difficult to use for patients who needed care soon (Atherton et al.).</p>
       <a href="https://www.jmir.org/2024/1/e51931">Read the interview in the study’s Results section</a>
     </article>
   </div>
 </section>
 <section id="accountability">
-<div class="eyebrow">Beyond the screen</div>
-<h2>Who is responsible for these barriers?</h2>
+<div class="eyebrow">Beyond the Screen</div>
+<h2>Who Is Responsible for These Barriers?</h2>
+<div class="card" style="margin:16px 0">
+<h3>Who Are the People Responsible Behind These AI Booking Tools?</h3>
+<p>Software developers, AI engineers, data scientists, platform designers, healthcare administrators and health system leaders are responsible for developing, implementing and overseeing AI booking tools. They must ensure these systems are accessible, equitable and do not reinforce existing healthcare inequalities.</p>
+</div>
 <div class="research-grid">
 <div class="card">
-<h3>Clinics and healthcare organizations</h3>
+<h3>Clinics and Healthcare Organizations</h3>
 <p>Select and evaluate booking platforms, maintain phone and in-person alternatives, and respond to unsuccessful booking attempts.</p>
 </div>
 <div class="card">
-<h3>Platform designers and vendors</h3>
+<h3>Platform Designers and Vendors</h3>
 <p>Build accessible interfaces, minimize unnecessary mandatory fields, offer flexible confirmation methods, and test with diverse users.</p>
 </div>
 <div class="card">
-<h3>Clinicians and frontline staff</h3>
+<h3>Clinicians and Frontline Staff</h3>
 <p>Recognize when digital systems delay access, assist patients through alternative channels, and raise recurring issues with decision-makers.</p>
 </div>
 <div class="card">
-<h3>Health system leaders</h3>
+<h3>Health System Leaders</h3>
 <p>Set accessibility expectations, evaluate who is excluded, and ensure accountability when digital services become barriers to care.</p>
 </div>
 </div>
+<details class="card" style="margin-top:16px">
+<summary style="cursor:pointer;font-weight:700">How Do Doctors Look at This?</summary>
+<p>Doctors may recognize the convenience of online appointment booking while acknowledging that digital barriers can delay necessary healthcare. Our research emphasizes the importance of human assistance, telephone booking and equitable scheduling.</p>
+</details>
+<details class="card" style="margin-top:16px">
+<summary style="cursor:pointer;font-weight:700">Input from Kinesiology and Health Science Professors — York University, Faculty of Health</summary>
+<p>Our discussions with <strong>two professors</strong> highlighted the connection between our project and Kinesiology and Health Science, particularly healthcare accessibility, health equity and the social determinants of health. Feedback emphasized how barriers between patients and digital platforms can prevent marginalized individuals from receiving necessary care in Canada.</p>
+</details>
 <div class="notice">
-<strong>Core takeaway</strong>
+<strong>Core Takeaway</strong>
 <p>Making appointments available online does not guarantee that everyone can book one. Equitable access requires accessible design, flexibility, and meaningful human alternatives.</p>
 </div>
 </section>
@@ -152,7 +168,7 @@ section[id]{scroll-margin-top:100px}
   </div>
 </section>
 </main>
-<footer>ACCESS DENIED · When online healthcare booking becomes a barrier<br>Allyssa Tassone and Kaleb Shahata · York University student gallery project</footer>
+<footer>ACCESS DENIED · When Online Healthcare Booking Becomes a Barrier<br>Allyssa Tassone and Kaleb Shahata · York University Student Gallery Project</footer>
 <script>
 const studies = {
   atherton: ['Atherton et al. (2024)', 'https://doi.org/10.2196/51931'],
@@ -166,7 +182,7 @@ const stories = {
     study: 'alturkistani',
     steps: [
       {
-        title: 'Create an account',
+        title: 'Create an Account',
         question: 'Jordan can use a library computer briefly or try to register on a phone with limited data.',
         choices: [
           ['Use the library computer', 'Jordan opens the form and has to enter personal information on a shared computer.', 'Booking on a shared device can raise privacy concerns.', 'next'],
@@ -174,7 +190,7 @@ const stories = {
         ]
       },
       {
-        title: 'Enter a home address',
+        title: 'Enter a Home Address',
         question: 'The demo form requires an address. Jordan has no permanent address.',
         choices: [
           ['Leave the address blank', 'The form rejects the submission.', 'A required address field can block a patient from requesting care.', 'retry'],
@@ -182,7 +198,7 @@ const stories = {
         ]
       },
       {
-        title: 'Choose how to get confirmation',
+        title: 'Choose How to Get Confirmation',
         question: 'The portal sends updates by email. Jordan cannot check email reliably.',
         choices: [
           ['Submit using email only', 'The request is submitted. Jordan may miss the follow-up email, and the appointment is still unconfirmed.', 'A portal can accept a request without giving the patient a reliable way to follow up.', 'finish']
@@ -196,14 +212,14 @@ const stories = {
     study: 'atherton',
     steps: [
       {
-        title: 'Open the booking portal',
+        title: 'Open the Booking Portal',
         question: 'Margaret needs a follow-up and has no smartphone or computer.',
         choices: [
           ['Borrow a device', 'Margaret opens the portal but struggles to read the small text.', 'Borrowing a device gets Margaret to the form. Readable text and clear navigation still matter.', 'next']
         ]
       },
       {
-        title: 'Verify your email',
+        title: 'Verify Your Email',
         question: 'The portal requires a verification code before Margaret can continue.',
         choices: [
           ['Enter the code independently', 'The code expires before Margaret completes verification.', 'A short deadline can turn verification into a barrier.', 'retry'],
@@ -211,7 +227,7 @@ const stories = {
         ]
       },
       {
-        title: 'Request the follow-up',
+        title: 'Request the Follow-Up',
         question: 'Margaret reaches the final page on the borrowed device.',
         choices: [
           ['Finish on the borrowed device', 'The session times out and the request is lost.', 'Without a save-and-return option, a timeout can force the patient to start over.', 'retry']
@@ -239,7 +255,7 @@ function begin(id) {
   index = 0;
   history = [];
   booking.classList.remove('hidden');
-  document.getElementById('bookingTitle').textContent = stories[id].name + '’s booking journey';
+  document.getElementById('bookingTitle').textContent = stories[id].name + '’s Booking Journey';
   booking.scrollIntoView();
   renderStep();
 }
@@ -260,7 +276,7 @@ function addChoice(label, callback) {
 function addHelp() {
   addChoice(helpLabel, () => {
     history.push(helpLabel);
-    showFinish('Booked with staff help', 'In this demo, clinic staff can offer phone or in-person booking and agree on a reliable way to confirm the appointment.');
+    showFinish('Booked with Staff Help', 'In this demo, clinic staff can offer phone or in-person booking and agree on a reliable way to confirm the appointment.');
   });
 }
 
@@ -276,8 +292,8 @@ function renderStep() {
 
 function showResult([label, outcome, explanation, action]) {
   history.push(label);
-  content.innerHTML = '<h3>What happened?</h3><div class="notice"><p>' + outcome +
-    '</p><strong>Why it matters</strong><p>' + explanation + '</p></div>';
+  content.innerHTML = '<h3>What Happened?</h3><div class="notice"><p>' + outcome +
+    '</p><strong>Why It Matters</strong><p>' + explanation + '</p></div>';
   if (active === 'margaret' && index < 2) {
     content.append(makeStudyLink('atherton'));
   }
@@ -285,9 +301,9 @@ function showResult([label, outcome, explanation, action]) {
     addChoice('Continue', () => { index++; renderStep(); });
   } else if (action === 'retry') {
     addChoice('Try a different option', renderStep);
-    addChoice('End without booking', () => showFinish('No appointment booked', outcome));
+    addChoice('End without booking', () => showFinish('No Appointment Booked', outcome));
   } else {
-    addChoice('See your booking summary', () => showFinish('Request sent · Appointment unconfirmed', outcome));
+    addChoice('See your booking summary', () => showFinish('Request Sent · Appointment Unconfirmed', outcome));
   }
   addHelp();
   focusHeading();
@@ -317,7 +333,7 @@ function showFinish(status, outcome) {
   evidence.textContent = story.evidence;
   content.append(evidence, makeStudyLink(story.study));
   addChoice('Try the other patient', () => begin(active === 'jordan' ? 'margaret' : 'jordan'));
-  addChoice('Choose a patient', resetBooking);
+  addChoice('Choose a Patient', resetBooking);
   focusHeading();
 }
 </script>
